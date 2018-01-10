@@ -1,0 +1,19 @@
+#root > {
+  section > {
+    header {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      border-bottom: 1px dotted rgb(193, 193, 193);
+    }
+
+    .story {
+      position: relative;
+    }
+
+    footer {
+      border-top: 1px dotted rgb(193, 193, 193);
+      margin-top: 2em;
+      padding: 1em;
+    }
+  }
+}

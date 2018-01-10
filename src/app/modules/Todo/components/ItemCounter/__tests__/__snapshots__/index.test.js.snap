@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show item count 1`] = `
+<div
+  className="itemCounter"
+>
+  <span>
+     
+    items
+     left
+  </span>
+</div>
+`;

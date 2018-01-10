@@ -1,0 +1,46 @@
+@import 'colors';
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    display: none;
+  }
+
+  > {
+    :first-child {
+      flex: 0 0 auto;
+    }
+
+    :last-child {
+      position: absolute;
+      right: 0;
+    }
+
+    :nth-child(2) {
+      flex: 1 1 auto;
+    }
+  }
+
+  &:hover {
+    button {
+      cursor: pointer;
+      display: block;
+    }
+  }
+}
+
+.active {
+  composes: todoItem;
+}
+
+.completed {
+  composes: todoItem;
+
+  color: $todoItemColor;
+  > div {
+    text-decoration: line-through;
+  }
+}

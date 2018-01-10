@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show Buttonbar 1`] = `
+<ul
+  className="buttonBar"
+>
+  <li
+    className="listItem"
+    onClick={[Function]}
+  >
+    <a
+      className="filterButton"
+      href="/#ALL"
+      name="ALL"
+    >
+      ALL
+    </a>
+  </li>
+  <li
+    className="listItem"
+    onClick={[Function]}
+  >
+    <a
+      className="filterButton"
+      href="/#ACTIVE"
+      name="ACTIVE"
+    >
+      ACTIVE
+    </a>
+  </li>
+  <li
+    className="listItem"
+    onClick={[Function]}
+  >
+    <a
+      className="filterButton"
+      href="/#COMPLETED"
+      name="COMPLETED"
+    >
+      COMPLETED
+    </a>
+  </li>
+</ul>
+`;

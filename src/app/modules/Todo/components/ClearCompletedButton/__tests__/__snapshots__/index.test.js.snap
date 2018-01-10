@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show clear completed 1`] = `
+<button
+  className="clearCompletedButton"
+  onClick={[Function]}
+>
+  Clear completed
+</button>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show RemoveButton (checked) 1`] = `
+<button
+  className="removeButton"
+  onClick={undefined}
+>
+  ×
+</button>
+`;
+
+exports[`Can show RemoveButton 1`] = `
+<button
+  className="removeButton"
+  onClick={undefined}
+>
+  ×
+</button>
+`;

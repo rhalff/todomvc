@@ -1,0 +1,12 @@
+ATTIC
+*.log
+*.swp
+*.txt
+.idea
+build/
+node_modules
+.c9
+package-lock.json
+dist/
+flow-typed/
+public/css

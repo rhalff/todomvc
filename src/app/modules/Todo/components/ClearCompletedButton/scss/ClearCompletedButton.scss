@@ -1,0 +1,12 @@
+.clearCompletedButton {
+	line-height: 20px;
+	text-decoration: none;
+	cursor: pointer;
+  // should have same style
+  // &:active
+
+  &:hover {
+	  text-decoration: underline;
+  }
+}
+

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show CheckBox (checked) 1`] = `
+<div
+  className="labelEditor"
+>
+  <div
+    contentEditable={false}
+    onDoubleClick={[Function]}
+    onKeyDown={[Function]}
+  />
+</div>
+`;
+
+exports[`Can show CheckBox 1`] = `
+<div
+  className="labelEditor"
+>
+  <div
+    contentEditable={false}
+    onDoubleClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Test LabelEditor
+  </div>
+</div>
+`;

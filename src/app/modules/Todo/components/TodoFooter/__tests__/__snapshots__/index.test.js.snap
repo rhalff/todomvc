@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show Todo Footer 1`] = `
+<footer
+  className="todoFooter"
+>
+  <div
+    className="itemCounter"
+  >
+    <span>
+      2
+       
+      items
+       left
+    </span>
+  </div>
+  <ul
+    className="buttonBar"
+  >
+    <li
+      className="listItem"
+      onClick={[Function]}
+    >
+      <a
+        className="filterButton"
+        href="/#ALL"
+        name="ALL"
+      >
+        All
+      </a>
+    </li>
+    <li
+      className="listItem"
+      onClick={[Function]}
+    >
+      <a
+        className="filterButton"
+        href="/#ACTIVE"
+        name="ACTIVE"
+      >
+        Active
+      </a>
+    </li>
+    <li
+      className="listItem"
+      onClick={[Function]}
+    >
+      <a
+        className="filterButton"
+        href="/#COMPLETED"
+        name="COMPLETED"
+      >
+        Completed
+      </a>
+    </li>
+  </ul>
+</footer>
+`;

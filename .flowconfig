@@ -1,0 +1,19 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/fbjs
+<PROJECT_ROOT>/ATTIC
+.*/__tests__/.*
+
+[include]
+<PROJECT_ROOT>/src/app/modules/Todo/components/Checkbox
+
+[libs]
+flow-typed
+
+[options]
+include_warnings=true
+esproposal.class_static_fields=enable
+esproposal.class_instance_fields=enable
+module.file_ext=.js
+module.file_ext=.md
+
+module.name_mapper='.*\.\(html\|scss\|svg\|png\|jpg\|gif\)$' -> '<PROJECT_ROOT>/flow/dummy-loader.js'

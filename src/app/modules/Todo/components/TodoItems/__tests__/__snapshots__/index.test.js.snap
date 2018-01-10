@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show Todo Items 1`] = `
+<section
+  className="main"
+>
+  <ul
+    className="todoItems"
+  >
+    <li>
+      <div
+        className="active"
+      >
+        <input
+          checked={undefined}
+          className="unchecked"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <div
+          className="labelEditor"
+        >
+          <div
+            contentEditable={false}
+            onDoubleClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Style & compose all components
+          </div>
+        </div>
+        <button
+          className="removeButton"
+          onClick={[Function]}
+        >
+          ×
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="completed"
+      >
+        <input
+          checked={true}
+          className="checked"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <div
+          className="labelEditor"
+        >
+          <div
+            contentEditable={false}
+            onDoubleClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            App Init
+          </div>
+        </div>
+        <button
+          className="removeButton"
+          onClick={[Function]}
+        >
+          ×
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="active"
+      >
+        <input
+          checked={undefined}
+          className="unchecked"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <div
+          className="labelEditor"
+        >
+          <div
+            contentEditable={false}
+            onDoubleClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Copy Styles one on one
+          </div>
+        </div>
+        <button
+          className="removeButton"
+          onClick={[Function]}
+        >
+          ×
+        </button>
+      </div>
+    </li>
+  </ul>
+</section>
+`;

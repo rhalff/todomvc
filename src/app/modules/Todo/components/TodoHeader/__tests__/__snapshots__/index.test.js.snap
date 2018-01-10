@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show Todo Header 1`] = `
+<header
+  className="todoHeader"
+>
+  <input
+    checked={false}
+    className="unchecked"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="edit"
+      onChange={[Function]}
+      placeholder="What needs to be done?"
+      type="text"
+      value=""
+    />
+  </form>
+  <div />
+</header>
+`;

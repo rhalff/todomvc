@@ -1,0 +1,21 @@
+@import 'colors';
+
+.labelEditor {
+  div {
+    white-space: pre-line;
+    word-break: break-all;
+    padding: 15px 60px 15px 15px;
+    line-height: 1.2;
+    transition: color 0.4s;
+    /* user-select: none; */
+
+    &.completed {
+      color: $labelEditorColor;
+      text-decoration: line-through;
+    }
+  }
+
+  &:hover > *[contenteditable="true"] {
+    background-color: $labelEditorBackgroundColor;
+  }
+}

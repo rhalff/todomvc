@@ -1,0 +1,32 @@
+@import 'colors';
+
+.toggleComplete {
+  width: 60px;
+  height: 34px;
+  text-align: center;
+  border: none;
+  background: none;
+  transform: rotate(90deg);
+  appearance: none;
+  cursor: pointer;
+  margin: -10px 0 0 -10px;
+}
+
+.toggleComplete:before {
+  content: '❯';
+  font-size: 22px;
+  padding: 10px 27px 10px 27px;
+  color: $toggleCompleteColor;
+}
+
+.checked {
+  composes: toggleComplete;
+
+  &:before {
+    color: $toggleCompleteCheckedColor;
+  }
+}
+
+.unchecked {
+  composes: toggleComplete;
+}

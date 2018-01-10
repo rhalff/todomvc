@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show CheckBox (checked) 1`] = `
+<input
+  checked={true}
+  className="checked"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Can show CheckBox 1`] = `
+<input
+  checked={undefined}
+  className="unchecked"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;

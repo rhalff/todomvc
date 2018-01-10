@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can show Todo Item 1`] = `
+<div
+  className="active"
+>
+  <input
+    checked={undefined}
+    className="unchecked"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <div
+    className="labelEditor"
+  >
+    <div
+      contentEditable={false}
+      onDoubleClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      Test Todo
+    </div>
+  </div>
+  <button
+    className="removeButton"
+    onClick={[Function]}
+  >
+    ×
+  </button>
+</div>
+`;
