@@ -1,4 +1,5 @@
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import path from 'path'
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
 export default type => {
@@ -61,7 +62,7 @@ export default type => {
     {
       loader: 'sass-loader',
       options: {
-        includePaths: ['src/app']
+        includePaths: [path.resolve('src/app')]
       }
     },
     'postcss-loader'
@@ -77,9 +78,15 @@ export default type => {
   } else {
     rules.push({
       test: /\.scss$/,
-      use: ['style-loader', 'css-modules-flow-types-loader'].concat(cssLoaders)
+      use: [
+      'style-loader'
+      ].concat(
+        cssLoaders
+      //  ['css-modules-flow-types-loader']
+      )
     })
   }
 
   return rules
 }
+
