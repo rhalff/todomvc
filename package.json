@@ -15,7 +15,7 @@
     "lint:fix": "yarn run lint --fix",
     "postinstall": "flow-typed install",
     "storybook": "start-storybook -p 8081 -c .storybook",
-    "start": "yarn run clean && NODE_ENV=production BABEL_ENV=production babel-node src/server",
+    "start": "yarn run clean && NODE_ENV=development BABEL_ENV=development babel-node src/server",
     "test": "jest",
     "watch:client": "webpack --watch --config webpack/client.babel.js",
     "watch:server": "webpack --watch --config webpack/server.babel.js"
