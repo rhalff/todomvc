@@ -14,7 +14,7 @@ const isAnalyzer = process.env.ANALIZER === 'true'
 
 const app = express()
 const compiler = webpack(webpackConfig)
-const port = isDeployment ? 80 : process.env.NODE_PORT || 8080
+const port = isDeployment ? 80 : process.env.PORT || 8080
 
 if (!isDevelopment) {
   app.get(
