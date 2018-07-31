@@ -1,12 +1,10 @@
 # Todos
 
-Preview: https://todos-rhalff.c9users.io/
-
-Storybook: https://todos-rhalff.c9users.io:8081/
+Storybook: https://rhalff.github.io/todomvc
 
 ### Usage
 
-`yarn start`: Start server on port 8081 
+`yarn start`: Start server on port 8081
 
 `yarn build`: Built client & server in production mode.
 
