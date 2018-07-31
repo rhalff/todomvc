@@ -78,15 +78,12 @@ export default type => {
   } else {
     rules.push({
       test: /\.scss$/,
-      use: [
-      'style-loader'
-      ].concat(
+      use: ['style-loader'].concat(
         cssLoaders
-      //  ['css-modules-flow-types-loader']
+        //  ['css-modules-flow-types-loader']
       )
     })
   }
 
   return rules
 }
-

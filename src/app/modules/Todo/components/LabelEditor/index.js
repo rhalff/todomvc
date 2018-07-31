@@ -36,7 +36,7 @@ class LabelEditor extends Component<Props, State> {
     }
   }
 
-  componentWillReceiveProps(nextProps: Props) {
+  UNSAFE_componentWillReceiveProps(nextProps: Props) { // eslint-disable-line
     this.setState({
       text: nextProps.text,
       editMode: false

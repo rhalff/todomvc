@@ -12,12 +12,15 @@ import {
 } from '../../actions/todos'
 import { itemFilter } from '../../actions/filter'
 
-export default connect(selector, {
-  onCreateItem: createTodo,
-  onClearCompleted: clearCompleted,
-  onFilterClick: itemFilter,
-  onRemoveItem: removeTodo,
-  onSaveItem: saveTodo,
-  onToggleComplete: toggleComplete,
-  onToggleItemComplete: toggleTodoComplete
-})(Todo)
+export default connect(
+  selector,
+  {
+    onCreateItem: createTodo,
+    onClearCompleted: clearCompleted,
+    onFilterClick: itemFilter,
+    onRemoveItem: removeTodo,
+    onSaveItem: saveTodo,
+    onToggleComplete: toggleComplete,
+    onToggleItemComplete: toggleTodoComplete
+  }
+)(Todo)
